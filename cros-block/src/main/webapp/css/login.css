@@ -1,0 +1,123 @@
+.login-container{
+	width:100vw;
+	height:100vh;
+	background: url('static/img/login-bj-01.jpg') no-repeat center/cover;
+	box-sizing: border-box;
+}
+.login-header{
+	width:100%;
+	height:80px;
+	line-height:80px;
+}
+.login-header a{
+	display: inline-block;
+	padding:0 20px;
+}
+.login-body{
+	width:252px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top:-200px;
+	z-index:9999;
+}
+.login-img-window{
+	text-align: center;
+}
+.login-img-window p{
+	margin-top:25px;
+	font-size: 26px;
+	line-height:26px;
+}
+.icon-name{
+	background: url('static/img/icon-user.png') no-repeat center/cover;
+}
+.icon-pass{
+	background: url('static/img/icon-pass.png') no-repeat center/cover;
+}
+.icon-code{
+	background: url('static/img/icon-code.png') no-repeat center/cover;
+}
+.active-user{
+	background: url('static/img/icon-user-active.png') no-repeat center/cover;
+}
+.active-pass{
+	background: url('static/img/icon-pass-active.png') no-repeat center/cover;
+}
+.active-code{
+	background: url('static/img/icon-code-active.png') no-repeat center/cover;
+}
+#login-form .login-code-input{
+	width:160px;
+	margin:10px 0;
+	position: relative;
+}
+.register-body .login-code-input input{
+	width:160px;
+	position: relative;
+}
+.login-submit{
+	width:100%;
+	height:100%;
+	text-align: center;
+	background:linear-gradient(rgba(67, 92, 121, 1),rgba(32, 47, 68, 1));
+	color:white;
+	border:none;
+	margin:20px 0;
+}
+.login-submit:hover{
+	color:white;
+	
+}
+.code-img{
+	width:60px;
+	height:30px;
+	position: absolute;
+	right:-90px;
+	top:-1px;
+	border:none;
+	margin:0;
+}
+
+.register-body{
+	position:absolute;
+	left:0;
+	top:159px;
+	display:none;
+}
+
+.register-body{
+	width:252px;
+}
+#register-form{
+	display:none;
+}
+.type-area{
+	width:260px;
+	height:260px;
+	position:absolute;
+	left:-4px;
+	top:0;
+	z-index:99999;
+}
+.type-area #type-btn{
+	width:260px;
+	height:45px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

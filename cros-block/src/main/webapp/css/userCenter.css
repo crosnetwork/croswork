@@ -1,0 +1,41 @@
+.user-container{
+	width:100vw;
+	height:100vh;
+}
+.user-center-header{
+	height:60px;
+	background: linear-gradient(to left,#4F6681,#27364A);
+	background:-webkit-linear-gradient(to left,#4F6681,#27364A);  
+    background:-o-linear-gradient(to left,#4F6681,#27364A);  
+    background:-moz-linear-gradient(to left,#4F6681,#27364A);  
+}
+.user-center-header img{
+	margin:10px;
+}
+
+.header-nav li{
+	width:145px;
+	text-align: center;
+	
+}
+.header-nav li:hover{
+	color:white;
+	background:rgba(0,0,0,.1)
+}
+.box-window{
+	width:100vw;
+	height:calc(100vh - 60px);
+}
+.ivu-menu-light,.ivu-menu-primary{
+	background: transparent;
+}
+.header-user-settings{
+	margin-right:30px;
+	cursor:pointer;
+}
+.header-user-settings>ul>li{
+	float:left;
+	padding:20px 10px;
+	width:40px;
+	height:20px;
+}

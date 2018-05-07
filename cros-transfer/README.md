@@ -1,7 +1,3 @@
-# ![Demo](demo.gif)  
-Contracts deployed:  
-Mainnet, Rinkeby, Kovan, Ropsten, Sokol, CORE-POA:  
-
 Example JSON:
 ```json
 [

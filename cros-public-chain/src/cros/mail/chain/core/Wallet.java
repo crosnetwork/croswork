@@ -22,20 +22,27 @@ import com.google.common.primitives.*;
 import com.google.common.util.concurrent.*;
 import com.google.protobuf.*;
 
+import cros.mail.chain.blockdata.InvalidWalletException;
+import cros.mail.chain.blockdata.WalletProtoUtil;
+import cros.mail.chain.core.TransactionDegree.*;
+import cros.mail.chain.encrypt.Child;
 import cros.mail.chain.encrypt.DeterKey;
+import cros.mail.chain.encrypt.KeyCrypt;
+import cros.mail.chain.encrypt.KeyCrypterScrypt;
 import cros.mail.chain.misc.BaseTagObject;
+import cros.mail.chain.misc.InterchangeRate;
 import cros.mail.chain.misc.ListenerRegister;
 import cros.mail.chain.misc.Threading;
 import cros.mail.chain.script.ChainScript;
+import cros.mail.chain.script.ChainScriptBuilder;
+import cros.mail.chain.script.ChainScriptChunk;
+import cros.mail.chain.signature.LocalTransactionSignature;
+import cros.mail.chain.signature.MissingSignature;
 import cros.mail.chain.signature.TransactionSignature;
-import cros.mail.chain.wallet.CrosKeyChainGroup;
-import cros.mail.chain.wallet.CrosWalletFile;
-import cros.mail.chain.wallet.DefaultKeySelector;
-import cros.mail.chain.wallet.DefaultRiskAssess;
-import cros.mail.chain.wallet.DeterSeed;
-import cros.mail.chain.wallet.KeyPackage;
-import cros.mail.chain.wallet.RiskAssess;
-import cros.mail.chain.wallet.TokenSelector;
+import cros.mail.chain.wallet.AllowUnconfirmedTokenSelector;
+import cros.mail.chain.wallet.*;
+import cros.mail.chain.wallet.Protos.Wallet.*;
+import cros.mail.chain.wallet.CrosWalletTransaction.*;
 import net.jcip.annotations.*;
 import org.bitcoin.protocols.payments.Protos.*;
 import org.slf4j.*;
@@ -3380,7 +3387,7 @@ public class Wallet extends BaseTagObject
 		return size;
 	}
 
-	public void setTransactionBroadcaster(@Nullable com.cros.core.TransactionSender broadcaster) {
+	public void setTransactionBroadcaster(@Nullable cros.mail.chain.core.TransactionSender broadcaster) {
 		Transaction[] toBroadcast = {};
 		lock.lock();
 		try {

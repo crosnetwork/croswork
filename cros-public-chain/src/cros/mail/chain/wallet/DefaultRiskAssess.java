@@ -24,9 +24,9 @@ import cros.mail.chain.core.Transaction;
 import cros.mail.chain.core.TransactionDegree;
 import cros.mail.chain.core.TxInput;
 import cros.mail.chain.core.TxOutput;
+import cros.mail.chain.core.Wallet;
 import cros.mail.chain.encrypt.Signature;
 import cros.mail.chain.script.ChainScriptChunk;
-import cros.mail.chain.wallet.Protos.Wallet;
 
 import javax.annotation.Nullable;
 

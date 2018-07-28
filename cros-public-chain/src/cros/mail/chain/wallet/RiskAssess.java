@@ -16,7 +16,7 @@ package cros.mail.chain.wallet;
 import java.util.List;
 
 import cros.mail.chain.core.Transaction;
-import cros.mail.chain.wallet.Protos.Wallet;
+import cros.mail.chain.core.Wallet;
 
 
 public interface RiskAssess {

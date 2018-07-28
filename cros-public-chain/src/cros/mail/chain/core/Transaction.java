@@ -34,6 +34,7 @@ import javax.annotation.Nullable;
 import java.io.*;
 import java.util.*;
 
+import static cros.mail.chain.core.Utils.*;
 import static com.google.common.base.Preconditions.checkState;
 
 public class Transaction extends ChildMessage implements Serializable {

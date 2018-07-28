@@ -22,6 +22,7 @@ import cros.mail.chain.core.NetworkParams;
 import cros.mail.chain.core.Sha256Hash;
 import cros.mail.chain.core.Utils;
 
+import org.bitcoin.crawler.PeerSeedProtos;
 import org.slf4j.*;
 
 import javax.annotation.*;

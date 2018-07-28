@@ -13,7 +13,6 @@
  ******************************************************************************/
 package cros.mail.chain.core;
 
-import com.google.common.hash.BloomFilter;
 
 public interface PeerProvider {
 

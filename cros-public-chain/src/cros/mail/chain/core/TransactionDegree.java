@@ -19,7 +19,6 @@ import com.google.common.util.concurrent.*;
 
 import cros.mail.chain.misc.ListenerRegister;
 import cros.mail.chain.core.PeerAddress;
-import cros.mail.chain.wallet.Protos.Transaction;
 
 import javax.annotation.*;
 import java.io.*;

@@ -270,4 +270,4 @@ public class SPVBlockData implements BlockData {
 		checkArgument(newCursor >= 0);
 		buffer.putInt(4, newCursor);
 	}
-}
+} 

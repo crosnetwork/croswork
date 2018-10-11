@@ -16,7 +16,11 @@ package cros.mail.chain.blockdata;
 import cros.mail.chain.core.NetworkParams;
 import cros.mail.chain.core.Sha256Hash;
 import cros.mail.chain.core.StoredDataBlock;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public interface BlockData {
 
 	void put(StoredDataBlock block) throws BlockDataException;

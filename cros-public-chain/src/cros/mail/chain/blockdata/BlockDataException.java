@@ -12,7 +12,11 @@
  * the License.
  ******************************************************************************/
 package cros.mail.chain.blockdata;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class BlockDataException extends Exception {
 	public BlockDataException(String message) {
 		super(message);

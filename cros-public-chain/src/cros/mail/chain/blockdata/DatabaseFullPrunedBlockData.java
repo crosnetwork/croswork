@@ -28,6 +28,11 @@ import java.math.BigInteger;
 import java.sql.*;
 import java.util.*;
 
+/**
+ * 
+ * @author CROS
+ *
+ */
 public abstract class DatabaseFullPrunedBlockData implements FullPrunedBlockData {
 	private static final Logger log = LoggerFactory.getLogger(DatabaseFullPrunedBlockData.class);
 

@@ -13,6 +13,11 @@
  ******************************************************************************/
 package cros.mail.chain.blockdata;
 
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class FileLockedException extends BlockDataException {
 	public FileLockedException(String message) {
 		super(message);

@@ -15,6 +15,11 @@ package cros.mail.chain.blockdata;
 
 import cros.mail.chain.core.*;
 
+/**
+ * 
+ * @author CROS
+ *
+ */
 public interface FullPrunedBlockData extends BlockData, UnspentProvider {
 
 	void put(StoredDataBlock storedDataBlock, StoredInvalidDataBlock undoableBlock) throws BlockDataException;

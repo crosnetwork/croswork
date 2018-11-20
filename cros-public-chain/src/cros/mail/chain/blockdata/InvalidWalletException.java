@@ -12,7 +12,11 @@
  * the License.
  ******************************************************************************/
 package cros.mail.chain.blockdata;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class InvalidWalletException extends Exception {
 	public InvalidWalletException(String s) {
 		super(s);

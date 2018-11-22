@@ -17,7 +17,11 @@ import sun.misc.*;
 import sun.nio.ch.*;
 
 import java.nio.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class MapUtil {
 	public static void forceRelease(MappedByteBuffer buffer) {
 		Cleaner cleaner = ((DirectBuffer) buffer).cleaner();

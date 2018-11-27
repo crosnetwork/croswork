@@ -17,7 +17,11 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import cros.mail.chain.core.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class MemoryBlockData implements BlockData {
 	private LinkedHashMap<Sha256Hash, StoredDataBlock> blockMap = new LinkedHashMap<Sha256Hash, StoredDataBlock>() {
 		@Override

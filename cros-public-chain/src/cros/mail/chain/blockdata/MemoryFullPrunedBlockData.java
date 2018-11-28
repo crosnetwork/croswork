@@ -21,7 +21,11 @@ import com.google.common.collect.Lists;
 import javax.annotation.Nullable;
 import java.io.Serializable;
 import java.util.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 class StoredTransactionOutPoint implements Serializable {
 	private static final long serialVersionUID = -4064230006297064377L;
 

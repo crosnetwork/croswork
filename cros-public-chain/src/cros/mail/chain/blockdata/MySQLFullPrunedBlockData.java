@@ -18,7 +18,11 @@ import java.util.Collections;
 import java.util.List;
 
 import cros.mail.chain.core.NetworkParams;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class MySQLFullPrunedBlockData extends DatabaseFullPrunedBlockData {
 	private static final String MYSQL_DUPLICATE_KEY_ERROR_CODE = "23000";
 	private static final String DATABASE_DRIVER_CLASS = "com.mysql.jdbc.Driver";

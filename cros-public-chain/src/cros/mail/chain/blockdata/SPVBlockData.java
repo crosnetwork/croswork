@@ -26,7 +26,11 @@ import java.util.*;
 import java.util.concurrent.locks.*;
 
 import static com.google.common.base.Preconditions.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class SPVBlockData implements BlockData {
 	private static final Logger log = LoggerFactory.getLogger(SPVBlockData.class);
 

@@ -47,7 +47,11 @@ import java.net.UnknownHostException;
 import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class WalletProtoUtil {
 	private static final Logger log = LoggerFactory.getLogger(WalletProtoUtil.class);
 

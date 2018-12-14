@@ -33,7 +33,11 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.locks.ReentrantLock;
 
 import static com.google.common.base.Preconditions.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public abstract class AbstractChain {
 	private static final Logger log = LoggerFactory.getLogger(AbstractChain.class);
 	protected final ReentrantLock lock = Threading.lock("blockchain");

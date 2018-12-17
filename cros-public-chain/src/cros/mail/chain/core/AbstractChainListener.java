@@ -14,7 +14,11 @@
 package cros.mail.chain.core;
 
 import java.util.List;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class AbstractChainListener implements CrosChainListener {
 	@Override
 	public void notifyNewBestBlock(StoredDataBlock block) throws VeriException {

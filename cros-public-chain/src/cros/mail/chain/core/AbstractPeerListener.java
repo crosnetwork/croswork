@@ -17,6 +17,11 @@ import javax.annotation.*;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class AbstractPeerListener implements PeerEventListener {
 	@Override
 	public void onPeersDiscovered(Set<PeerAddress> peerAddresses) {

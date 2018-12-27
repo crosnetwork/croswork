@@ -17,7 +17,11 @@ import cros.mail.chain.script.ChainScript;
 import cros.mail.chain.wallet.AbstractKeyChainListener;
 
 import java.util.List;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public abstract class AbstractWalletListener extends AbstractKeyChainListener implements WalletListener {
 	@Override
 	public void onCoinsReceived(Wallet wallet, Transaction tx, Coin prevBalance, Coin newBalance) {

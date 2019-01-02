@@ -25,7 +25,11 @@ import cros.mail.chain.script.ChainScript;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class Address extends Checksum {
 
 	public static final int LENGTH = 20;

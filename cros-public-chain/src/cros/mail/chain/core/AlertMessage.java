@@ -16,7 +16,11 @@ package cros.mail.chain.core;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class AlertMessage extends Message {
 	private byte[] content;
 	private byte[] signature;

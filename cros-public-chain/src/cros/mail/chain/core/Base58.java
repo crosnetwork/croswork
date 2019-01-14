@@ -15,7 +15,11 @@ package cros.mail.chain.core;
 
 import java.math.BigInteger;
 import java.util.Arrays;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class Base58 {
 	public static final char[] ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz".toCharArray();
 

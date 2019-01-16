@@ -39,7 +39,11 @@ import java.util.List;
 import java.util.Locale;
 import static cros.mail.chain.core.Coin.FIFTY_COINS;
 import static cros.mail.chain.core.Sha256Hash.hashTwice;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class Block extends Message {
 	private static final Logger log = LoggerFactory.getLogger(Block.class);
 	private static final long serialVersionUID = 2738848929966035281L;

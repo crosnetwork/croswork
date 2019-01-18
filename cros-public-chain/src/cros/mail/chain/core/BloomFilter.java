@@ -26,7 +26,11 @@ import java.util.List;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static java.lang.Math.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class BloomFilter extends Message {
 
 	public enum BloomUpdate {

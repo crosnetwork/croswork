@@ -40,7 +40,11 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import static com.google.common.base.Preconditions.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class CheckpointManager {
 	private static final Logger log = LoggerFactory.getLogger(CheckpointManager.class);
 

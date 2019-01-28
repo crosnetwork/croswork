@@ -20,7 +20,11 @@ import java.util.Arrays;
 
 import com.google.common.base.Objects;
 import com.google.common.primitives.UnsignedBytes;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class Checksum implements Serializable, Cloneable, Comparable<Checksum> {
 	protected final int version;
 	protected byte[] bytes;

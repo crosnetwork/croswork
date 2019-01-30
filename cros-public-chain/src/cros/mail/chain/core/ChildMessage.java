@@ -14,7 +14,11 @@
 package cros.mail.chain.core;
 
 import javax.annotation.Nullable;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public abstract class ChildMessage extends Message {
 	private static final long serialVersionUID = -7657113383624517931L;
 

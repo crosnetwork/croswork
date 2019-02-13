@@ -21,7 +21,11 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 
 import static com.google.common.base.Preconditions.checkArgument;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public final class Coin implements Money, Comparable<Coin>, Serializable {
 
 	public static final int SMALLEST_UNIT_EXPONENT = 8;

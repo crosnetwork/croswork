@@ -21,7 +21,11 @@ import java.util.List;
 import cros.mail.chain.blockdata.BlockData;
 import cros.mail.chain.blockdata.BlockDataException;
 
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class CrosChain extends AbstractChain {
 
 	protected final BlockData blockData;

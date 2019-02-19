@@ -73,7 +73,11 @@ import cros.mail.chain.encrypt.KeyCryptException;
 import cros.mail.chain.encrypt.LazyECPoint;
 import cros.mail.chain.encrypt.Signature;
 import cros.mail.chain.wallet.Protos;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class ECKey implements EncryptItem, Serializable {
 	private static final Logger log = LoggerFactory.getLogger(ECKey.class);
 

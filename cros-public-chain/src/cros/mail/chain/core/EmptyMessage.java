@@ -15,7 +15,11 @@ package cros.mail.chain.core;
 
 import java.io.IOException;
 import java.io.OutputStream;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public abstract class EmptyMessage extends Message {
 	private static final long serialVersionUID = 8240801253854151802L;
 

@@ -32,7 +32,11 @@ import java.util.Set;
 import java.util.concurrent.*;
 
 import static com.google.common.base.Preconditions.checkState;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class FullCrosChain extends AbstractChain {
 	private static final Logger log = LoggerFactory.getLogger(FullCrosChain.class);
 

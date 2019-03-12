@@ -17,7 +17,11 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class GetBlocksMessage extends Message {
 	private static final long serialVersionUID = 3479412877853645644L;
 	protected long version;

@@ -12,7 +12,11 @@
  * the License.
  ******************************************************************************/
 package cros.mail.chain.core;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class GetDataMessage extends ListMessage {
 	private static final long serialVersionUID = 2754681589501709887L;
 

@@ -14,7 +14,11 @@
 package cros.mail.chain.core;
 
 import java.util.List;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class GetHeaderMessage extends GetBlocksMessage {
 	public GetHeaderMessage(NetworkParams params, List<Sha256Hash> locator, Sha256Hash stopHash) {
 		super(params, locator, stopHash);

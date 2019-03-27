@@ -18,7 +18,11 @@ import com.google.common.collect.ImmutableList;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class GetUTXOsMessage extends Message {
 	public static final int MIN_PROTOCOL_VERSION = 70002;
 

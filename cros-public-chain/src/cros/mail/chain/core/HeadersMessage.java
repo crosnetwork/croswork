@@ -21,7 +21,11 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class HeadersMessage extends Message {
 	private static final Logger log = LoggerFactory.getLogger(HeadersMessage.class);
 

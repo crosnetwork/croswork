@@ -16,7 +16,11 @@ package cros.mail.chain.core;
 import javax.annotation.Nullable;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class InsufficientFundException extends Exception {
 
 	@Nullable

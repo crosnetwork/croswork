@@ -14,7 +14,11 @@
 package cros.mail.chain.core;
 
 import java.util.Arrays;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class InvalidNetworkException extends NoAddressException {
 
 	public int verCode;

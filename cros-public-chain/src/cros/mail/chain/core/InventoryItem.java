@@ -12,7 +12,11 @@
  * the License.
  ******************************************************************************/
 package cros.mail.chain.core;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class InventoryItem {
 
 	static final int MESSAGE_LENGTH = 36;

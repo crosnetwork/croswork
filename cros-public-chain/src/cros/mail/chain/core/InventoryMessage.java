@@ -14,7 +14,11 @@
 package cros.mail.chain.core;
 
 import static com.google.common.base.Preconditions.checkArgument;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class InventoryMessage extends ListMessage {
 	private static final long serialVersionUID = -7050246551646107066L;
 

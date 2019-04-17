@@ -16,7 +16,11 @@ package cros.mail.chain.core;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.*;
-
+/**
+ * 
+ * @author CROS
+ *
+ */
 public class LightBlock extends Message {
 
 	public static final int MIN_PROTOCOL_VERSION = 70000;
